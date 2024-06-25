@@ -32,6 +32,7 @@ public class Main {
                     contacts[a - 1].value = csc.next();
 
                     for (int i = 0; i < contacts.length; i++) {
+
                         System.out.println(contacts[i].number + contacts[i].name +  " " + contacts[i].value);
                         }
 
